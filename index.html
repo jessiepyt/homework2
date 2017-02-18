@@ -1,47 +1,65 @@
 <html>
 
 <head>
-    <style>
+   <style>
         .bar-block {
-            background-color: #4286f4;
+            background-color: #8286f4;
             color: white;
             text-align: right;
-            margin-top: 2px;
-            margin-bottom: 2px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            width: 30px;
+            position: absolute;
+            bottom: 0;
         }
         
         .bar-label {
             width: 50px;
             text-align: right;
         }
+        .bar-block-1{
+            width: 100px;
+        }
+        .myfigure {
+            position: relative;
+            width: 200px;
+            height: 200px;
+        }
     </style>
 </head>
 
 <body>
     <article>
+     <section>
         <h1> Gun deaths in Florida drops after the gun control? </h1>
-        <section>
+       
             <h2> Presented by Jessie Pang </h2>
             <h3> Orginal graph by Reuters:</h3>
             <img src="http://static5.businessinsider.com/image/53038b556da8110e5ce82be7-604-756/florida%20gun%20deaths.jpg" alt="Gun deaths in Florida" height="400" width=350"">
             <br>
             <h3>Explanation</h3>
-            <p1> Most people see a huge fall-off in the number of gun deaths after Stand Your Ground was passed.  But that’s not what the graph shows.  A quick look at the vertical axis reveals that the gun deaths are counted from top (0) to bottom (800).  The highest peaks are the fewest gun deaths and the lowest ones are the most.  A rise in the line, in other words, reveals a reduction in gun deaths.  The graph on the right — flipped both horizontally and vertically — is more intuitive to most: a rising line reflects a rise in the number of gun deaths and a dropping a drop.</p1>
+            <p1> To many, this graph shows huge decrease in the number of gun deaths after Stand Your Ground was enacted. But it's not true. The y-axis reveals that the gun deaths are counted upside down, i.e. from top (0) to bottom (800).  The highest peaks are the fewest gun deaths and the lowest ones are the most. A rise in this graph actually means a decrease in gun deaths.  </p1>
             <br>
-            <p2> The proper conclusion, then, is that gun deaths skyrocketed after Stand Your Ground was enacted.</p2>
-            <br>
-            <p3> This example is a great reminder that we bring our own assumptions to our reading of any illustration of data.  The original graph may have broken convention, making the intuitive read of the image incorrect, but the data is, presumably, sound.  It’s our responsibility, then, to always do our due diligence in absorbing information.  The alternative is to be duped. </p3>
-            <br>
-            <h3>Suggestion</h3>
+            <h3>Correction</h3>
             <div class="myfigure">
-                <div class="bar-block" style="width: 100px;"> 100 </div>
-                <div class="bar-block" style="width: 80px;"> 80 </div>
-                <div class="bar-block" style="width: 60px;"> 60 </div>
-                <div class="bar-block" style="width: 90px;"> 90 </div>
-                <div class="bar-block" style="width: 110px;"> 110 </div>
-                <div class="bar-block" style="width: 20px;"> 20 </div>
+                <div class="bar-block" style="height: 80px; left:0"> 80 </div>
+                <div class="bar-block" style="height: 60px; left:40px"> 60 </div>
+                <div class="bar-block" style="height: 90px; left:80px"> 90 </div>
+                <div class="bar-block" style="height: 110px; left:120px"> 110 </div>
+                <div class="bar-block" style="height: 20px; left:160px"> 20 </div>
             </div>
-        </section>
+            <br>
+            <p2> Flipped both horizontally and vertically — is more intuitive to most: a rising line reflects a rise in the number of gun deaths and a dropping a drop.</p2>
+            <h3> Conclusion </h3>
+            <p2> The proper conclusion is that gun deaths skyrocketed after Stand Your Ground was enacted. </p2>
+            <br>
+            <p3> This example is a great reminder that we bring our own assumptions to our reading of any illustration of data. The original graph may have broken convention, making the intuitive read of the image incorrect, but the data is, presumably, sound.  It’s our responsibility, then, to always do our due diligence in absorbing information. The alternative is to be duped. </p3>
+            <h3> Reference:</h3>
+            <a href="http://www.businessinsider.com/gun-deaths-in-florida-increased-with-stand-your-ground-2014-2"> 1. This Chart Shows An Alarming Rise In Florida Gun Deaths After 'Stand Your Ground' Was Enacted</a>
+            <br>
+            <a href="http://fcir.org/2013/04/21/as-firearm-ownership-rises-florida-gun-murders-increasing/"> 2.As Firearm Ownership Rises, Florida Gun Murders Increasing </a>
+     </section>
     </article>
+  
 </body>
 </html>
